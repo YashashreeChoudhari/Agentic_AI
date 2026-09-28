@@ -1,0 +1,5 @@
+loader
+https://docs.langchain.com/oss/python/langchain/overview#document-loaders
+
+embedding
+https://developers.openai.com/api/docs/guides/embeddings/embedding-models
