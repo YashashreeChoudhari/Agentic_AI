@@ -9,7 +9,7 @@ google-generativeai
 langchain-groq
 langchain-ollama
 langchain-deepseek
-ipython 
+ipython
 ipykernel
 langchain-tavily
 langchain_google_genai

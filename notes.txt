@@ -3,3 +3,10 @@ https://docs.langchain.com/oss/python/langchain/overview#document-loaders
 
 embedding
 https://developers.openai.com/api/docs/guides/embeddings/embedding-models
+
+
+prompt = hub.pull('rlm/rag-prompt') 
+REF: https://smith.langchain.com/hub
+
+graph
+REF: https://mermaid.live/
