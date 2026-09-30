@@ -10,3 +10,37 @@ REF: https://smith.langchain.com/hub
 
 graph
 REF: https://mermaid.live/
+
+## What Is Chunking in RAG?
+Chunking means splitting large documents into smaller, semantically meaningful pieces called chunks.  
+These chunks are then embedded and stored in a vector database, so the retriever can efficiently find relevant context during query time.
+
+# Types of Chunking
+
+1. Fixed-Size Chunking
+Splitting text into equal-sized chunks based on a fixed number of tokens, words, or characters.
+
+2. Overlapping Chunking (Sliding Window)
+Chunks are created with a certain overlap between consecutive segments  
+(e.g., 512 tokens/chr per chunk with 100-token/chr overlap).
+
+3. Sentence/Paragraph-Based Chunking
+Splitting text according to natural linguistic boundaries — sentence or paragraph delimiters.
+
+4. Semantic Chunking (Embedding-Based)
+Chunks are formed based on semantic similarity rather than text length.  
+Embedding models detect semantic breaks.
+
+5. Recursive Character/Token Splitter
+Uses a hierarchical splitter that first tries to split by paragraphs, then sentences, then words —  
+ensuring each chunk fits within token/chr limits.
+
+6. Structure-Aware Chunking
+Splitting based on document structure — headings, subheadings, bullet points, table sections, or HTML tags.
+
+7. Metadata-Aware or Contextual Chunking
+Each chunk is attached with metadata such as source, title, timestamp, author, or section label.
+
+8. Adaptive or Dynamic Chunking
+Chunk size dynamically adapts based on content density or semantic complexity.
+
