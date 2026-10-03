@@ -44,3 +44,6 @@ Each chunk is attached with metadata such as source, title, timestamp, author, o
 8. Adaptive or Dynamic Chunking
 Chunk size dynamically adapts based on content density or semantic complexity.
 
+Pinecone vector database
+https://docs.langchain.com/oss/python/integration/vectorstores/pinecone
+https://docs.pinecone.io/guides/get-started/quickstart

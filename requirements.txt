@@ -25,3 +25,5 @@ nltk
 langchain_experimental
 langchain-pinecone
 pinecone-client
+weaviate-client
+langchain-weaviate
