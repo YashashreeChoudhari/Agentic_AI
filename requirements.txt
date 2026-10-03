@@ -23,3 +23,5 @@ pypdf
 faiss-cpu
 nltk
 langchain_experimental
+langchain-pinecone
+pinecone-client
